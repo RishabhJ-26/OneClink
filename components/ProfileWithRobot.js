@@ -182,7 +182,7 @@ export default function ProfileWithRobot({ item }) {
                 href={item.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`flex items-center gap-3 px-5 py-3 rounded-lg font-semibold text-white bg-[#151b26] border border-cyan-700/30 hover:bg-cyan-600/20 transition-all duration-150`}
+                className={`flex items-center justify-center gap-3 px-5 py-3 rounded-lg font-semibold text-white bg-[#151b26] border border-cyan-700/30 hover:bg-cyan-600/20 transition-all duration-150`}
               >
                 <span className="text-2xl text-cyan-400">{platformInfo.icon}</span>
                 <span className="text-base text-cyan-100">{item.linktext}</span>
